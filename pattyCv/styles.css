@@ -1,0 +1,183 @@
+/*font-family: 'Indie Flower', cursive;
+font-family: 'Roboto', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #eeffb2;
+}
+
+h2 {
+    font-family: 'Indie Flower', sans-serif;
+    font-size: 34px;
+
+}
+
+.container1{
+    background: url(/img/fondo1.png) no-repeat;
+    background-color: white;
+    height: 600px;
+}
+
+#info1{
+    width: 300px;
+    height: 150px;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    top: 400px;
+    left: 700px;
+}
+
+#info1:nth-child(1) h2{
+    font-family: 'Indie Flower', cursive;
+    font-size: 50px;
+}
+
+/*///////////////////*/
+
+.container2{
+    height: 600px;
+}
+
+#info2{
+    font-size: 18px;
+    width: 600px;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    bottom: 290px;
+    left: 350px;
+
+}
+
+
+#lentes{
+    display: block;
+    position: relative;
+    top: 50px;
+    left: 800px;
+
+}
+
+#libreta{
+    display: block;
+    position: relative;
+    left: 150px;
+    top: 10px;
+
+}
+
+/*///////////////////*/
+
+.container3{
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+}
+
+.container3 h2{
+    font-size: 28px;
+    display: block;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    
+}
+
+#lTemp{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 70px;
+}
+
+
+.separador{
+    display: flex;
+    justify-content: center;
+}
+
+
+#line{
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+
+
+/***************************/
+
+.container4{
+    background-color: white;
+    height: 500px;
+}
+
+
+.container4 h2{
+    font-size: 28px;
+    display: block;
+    text-align: center;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    position: relative;
+    bottom: 560px;
+}
+
+#imghab{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.separador2{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 360px;
+}
+
+#idiomas{
+    position: relative;
+    right: 150px;
+    bottom: 60px;
+}
+
+#trabajo{
+    position: relative;
+    left: 270px;
+}
+
+#trabajo li{
+    list-style: none;
+}
+
+progress[value]{
+    width: 200px;
+    height: 15px;
+
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: rgb(204, 202, 195);
+  }
+
+progress[value]::-webkit-progress-value {
+  background-color: #b9e02b;
+}  
+
